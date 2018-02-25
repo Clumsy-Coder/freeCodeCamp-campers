@@ -12,10 +12,6 @@ const styles = {
 };
 
 class root extends React.Component {
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
 		let { classes } = this.props;
 		return (

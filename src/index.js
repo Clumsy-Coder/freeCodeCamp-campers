@@ -3,11 +3,6 @@ import { render } from "react-dom";
 
 import Root from "./root";
 
-const styles = {
-	fontFamily: "sans-serif",
-	textAlign: "center",
-};
-
 const App = () => (
 	<div>
 		<Root />
