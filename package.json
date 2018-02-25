@@ -1,9 +1,13 @@
 {
 	"name": "freecodecamp-campers",
 	"version": "1.0.0",
-	"description":
-		"Display top campers from last 30 days and top campers of all time",
-	"keywords": ["material-ui", "freecodecamp", "react", "material-ui-icons"],
+	"description": "Display top campers from last 30 days and top campers of all time",
+	"keywords": [
+		"material-ui",
+		"freecodecamp",
+		"react",
+		"material-ui-icons"
+	],
 	"homepage": "https://codesandbox.io/s/new",
 	"main": "src/index.js",
 	"dependencies": {
