@@ -8,7 +8,7 @@
 		"react",
 		"material-ui-icons"
 	],
-	"homepage": "https://codesandbox.io/s/new",
+	"homepage": "https://clumsy-coder.github.io/freeCodeCamp-campers/",
 	"main": "src/index.js",
 	"dependencies": {
 		"axios": "0.18.0",
@@ -19,11 +19,15 @@
 		"react-dom": "16.2.0",
 		"react-scripts": "1.1.0"
 	},
-	"devDependencies": {},
+	"devDependencies": {
+		"gh-pages": "^1.1.0"
+	},
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test --env=jsdom",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+    	"deploy": "gh-pages -d build"
 	}
 }
